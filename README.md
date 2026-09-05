@@ -1,22 +1,10 @@
 # Nexa AI 🤖
 
-```{=html}
-<p align="center">
-```
-`<strong>`{=html}A modern full-stack conversational AI platform powered
-by Google Gemini.`</strong>`{=html}
-```{=html}
-</p>
-```
-```{=html}
-<p align="center">
-```
+A modern full-stack conversational AI platform powered
+by Google Gemini.
+
 Secure authentication • Persistent conversations • Real-time AI
 streaming
-```{=html}
-</p>
-```
-
 ------------------------------------------------------------------------
 
 ## 📌 Overview
@@ -226,11 +214,4 @@ Detailed documentation is available inside each application:
 GitHub: [@sharmarujula123-gif](https://github.com/sharmarujula123-gif)
 
 ------------------------------------------------------------------------
-
-```{=html}
-<p align="center">
-```
 Built with React, Node.js, MongoDB, and Google Gemini.
-```{=html}
-</p>
-```
