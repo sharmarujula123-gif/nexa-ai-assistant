@@ -1,21 +1,13 @@
 # Nexa AI 🤖
-
-```{=html}
 <p align="center">
-```
-`<strong>`{=html}A modern full-stack conversational AI platform powered
-by Google Gemini.`</strong>`{=html}
-```{=html}
+  <img src="assets/nexa-ai-banner.png" alt="Nexa AI" width="100%">
 </p>
-```
-```{=html}
-<p align="center">
-```
+
+A modern full-stack conversational AI platform powered
+by Google Gemini.
+
 Secure authentication • Persistent conversations • Real-time AI
 streaming
-```{=html}
-</p>
-```
 
 ------------------------------------------------------------------------
 
