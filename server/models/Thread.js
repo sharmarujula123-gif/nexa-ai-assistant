@@ -1,0 +1,3 @@
+import mongoose from "mongoose";
+const messageSchema=new mongoose.Schema({role:{type:String,enum:["user","assistant"],required:true},content:{type:String,required:true,trim:true}},{_id:false,timestamps:true});
+const threadSchema=new mongoose.Schema({threadId:{type:String,required:true,trim:true},userId:{type:mongoose.Schema.Types.ObjectId,ref:"User",required:true,index:true},title:{type:String,default:"New Chat",trim:true,maxlength:100},messages:{type:[messageSchema],default:[]}},{timestamps:true});threadSchema.index({userId:1,updatedAt:-1});threadSchema.index({userId:1,threadId:1},{unique:true});export default mongoose.model("Thread",threadSchema);
